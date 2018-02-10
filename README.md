@@ -12,14 +12,15 @@ I'm using [Stylish][stylish-link] extension to apply these styles in Google Chro
 /*
 	Disable Google Chrome links underline skipping over some characters.
 */
+
 a:link {
     text-decoration-skip-ink: none;
 }
 ```
 
-| Before                           | After |
-| -------------                    | -------------                    |
-| ![alt text][chrome-link-before]  | ![alt text][chrome-link-after]   |
+| Before                   | After                    |
+| -------------            | -------------            |
+| ![][chrome-link-before]  | ![][chrome-link-after]   |
 
 
 ## Hide twitter statistics
@@ -41,14 +42,17 @@ a:link {
 }
 ```
 
-| Before                             | After                              |
-| -------------                      | -------------                      |
-| ![alt text][twitter-stats-before]  | ![alt text][twitter-stats-after]   |
+| Before                       | After                        |
+| -------------                | -------------                |
+| ![][twitter-stats-before-1]  | ![][twitter-stats-after-1]   |
+| ![][twitter-stats-before-2]  | ![][twitter-stats-after-2]   |
 
 
 [stylish-link]: https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
 
 [chrome-link-before]: images/chrome-link-before.png "Before applying style"
 [chrome-link-after]:  images/chrome-link-after.png "After applying style"
-[twitter-stats-before]: images/twitter-stats-before.png "Before applying style"
-[twitter-stats-after]: images/twitter-stats-after.png "After applying style"
+[twitter-stats-before-1]: images/twitter-stats-before-1.png "Before applying style"
+[twitter-stats-after-1]: images/twitter-stats-after-1.png "After applying style"
+[twitter-stats-before-2]: images/twitter-stats-before-2.png "Before applying style"
+[twitter-stats-after-2]: images/twitter-stats-after-2.png "After applying style"
