@@ -40,6 +40,18 @@ a:link {
 .DashboardProfileCard-userFields {
     top: 96px;
 }
+
+/* Hide recommended friends */
+
+.dashboard .has-content.wtf-module {
+    display: none;
+}
+
+/* Hide trends */
+
+.dashboard .trends {
+	display: none;
+}
 ```
 
 | Before                       | After                        |
